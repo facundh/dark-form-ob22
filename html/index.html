@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Formulario de Registro</title>
+</head>
+<body>
+    <div class="container">
+        <h3>Formulario de Registro</h3>
+        <div class="buttons">
+            <button class="google-btn">
+                <picture>
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGjwH1vlzVXAR6VFKNiKyf37qHlN_gLk0w9g&usqp=CAU" alt="logo-google">
+                </picture>
+                <span>Registrarse con Google</span>
+              </button>
+              <button class="twitter-btn">
+                <picture>
+                    <img src="data:image/png;base64,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" alt="logo twiter">
+                </picture>
+              </button>
+        </div>
+        <div class="separator">
+            <hr />
+            <span>O...</span>
+            <hr />
+        </div>
+        <form action="" method="" class="form-container">
+            <div class="section-inputs">
+                <label for="name">
+                    <span>Name</span>
+                    <input type="text" id="name" name="name" />
+                </label>
+                <label for="username">
+                    <span>Username</span>
+                    <input type="text" id="username" name="username" />
+                </label>
+            </div>
+                <label for="email">
+                    <span>Email</span>
+                    <input type="email" id="email" name="email" />
+                </label>
+                <label for="password">
+                    <span>Password</span>
+                    <input type="password" id="password" name="password" placeholder="6+ caracteres" />
+                </label>
+                <label for="checkbox" class="checkbox-label">
+                    <input type="checkbox" id="checkbox" name="checkbox"  />
+                    <span>Acepto las condiciones y aviso legal.</span>
+                </label>
+                <button type="submit" class="submit-button">Crear Cuenta</button>
+            </div>
+          </form>
+    </div>
+</body>
+</html>
